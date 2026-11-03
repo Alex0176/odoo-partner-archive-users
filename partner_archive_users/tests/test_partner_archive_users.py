@@ -21,6 +21,8 @@ class TestPartnerArchiveUsers(TransactionCase):
     def test_wizard_returned_when_portal_users_exist(self):
         action = self.company.action_archive()
         self.assertEqual(action.get("res_model"), "partner.archive.users.wizard")
+        # Der Web-Client wertet die Aktion ohne weitere Aufbereitung aus und verlangt "views"
+        self.assertEqual(action.get("views"), [(False, "form")])
         wizard = self.env["partner.archive.users.wizard"].browse(action["res_id"])
         self.assertEqual(wizard.partner_ids, self.company)
         self.assertEqual(wizard.user_ids, self.portal_user)
