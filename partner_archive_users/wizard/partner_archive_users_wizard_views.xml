@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_archive_users_wizard_form" model="ir.ui.view">
+        <field name="name">partner.archive.users.wizard.form</field>
+        <field name="model">partner.archive.users.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <div class="alert alert-warning" role="alert">
+                    <p class="mb-1">
+                        <strong>Should the company really be archived? There are still active users in the system.</strong>
+                    </p>
+                    <p class="mb-0">
+                        If you confirm, the listed portal users are archived together with the company.
+                    </p>
+                </div>
+                <group>
+                    <field name="partner_names" string="Company" readonly="1"/>
+                    <field name="user_count" string="Active users" readonly="1"/>
+                </group>
+                <field name="user_ids" nolabel="1" colspan="2">
+                    <list>
+                        <field name="name"/>
+                        <field name="login"/>
+                        <field name="partner_id" string="Contact"/>
+                    </list>
+                </field>
+                <field name="partner_ids" invisible="1"/>
+                <footer>
+                    <button name="action_confirm" type="object" class="btn-danger"
+                            string="Yes, archive company and users" data-hotkey="q"/>
+                    <button special="cancel" string="Cancel" class="btn-secondary" data-hotkey="x"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

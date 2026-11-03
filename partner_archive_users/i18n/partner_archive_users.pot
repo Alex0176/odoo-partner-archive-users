@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_archive_users
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-03 16:38+0000\n"
+"PO-Revision-Date: 2026-11-03 16:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid ""
+"<strong>Should the company really be archived? There are still active users "
+"in the system.</strong>"
+msgstr ""
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid "Active users"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__user_ids
+msgid "Active portal users"
+msgstr ""
+
+#. module: partner_archive_users
+#. odoo-python
+#: code:addons/partner_archive_users/wizard/partner_archive_users_wizard.py:0
+msgid "Archive company?"
+msgstr ""
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid "Cancel"
+msgstr ""
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid "Company"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model,name:partner_archive_users.model_res_partner
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid "Contact"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model,website_form_label:partner_archive_users.model_res_partner
+msgid "Customer"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__display_name
+#: model:ir.model.fields,field_description:partner_archive_users.field_res_partner__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model,name:partner_archive_users.model_partner_archive_users_wizard
+msgid "Archive Company with Portal Users"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__id
+#: model:ir.model.fields,field_description:partner_archive_users.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid ""
+"If you confirm, the listed portal users are archived together with the "
+"company."
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__partner_ids
+msgid "Contacts"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__partner_names
+msgid "Partner Names"
+msgstr ""
+
+#. module: partner_archive_users
+#: model:ir.model.fields,field_description:partner_archive_users.field_partner_archive_users_wizard__user_count
+msgid "User Count"
+msgstr ""
+
+#. module: partner_archive_users
+#: model_terms:ir.ui.view,arch_db:partner_archive_users.view_partner_archive_users_wizard_form
+msgid "Yes, archive company and users"
+msgstr ""
