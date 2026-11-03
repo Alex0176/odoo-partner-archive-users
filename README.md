@@ -64,4 +64,4 @@ Benutzer bleiben gesperrt.
 
 ## Lizenz
 
-AGPL-3.0 or later. Copyright 2026 Biricon IT Services e.u.
+AGPL-3.0 or later. Copyright 2026 Biricon IT Services GmbH.

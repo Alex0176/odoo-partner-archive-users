@@ -1,4 +1,4 @@
-# Copyright 2026 Biricon IT Services e.u
+# Copyright 2026 Biricon IT Services GmbH
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 from odoo.exceptions import RedirectWarning
 from odoo.tests import TransactionCase, tagged
